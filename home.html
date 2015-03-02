@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Smart Home Smart City System</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script> 
+</head>
+<body>
+    <div class="container-fluid" style="margin-top">
+        <div class="row">
+            <header class="navbar navbar-default" role="banner">
+        
+
+        <div class="container form-inline">
+            <a href="home.html">
+                <img src="./images/sx_logo.png" alt="Image" id="logo" class="img-responsive pull-left"/>
+            </a>
+
+            <div class="pull-right padding-top">
+                <form class="hidden-xs" role="form">
+
+                    <div class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <a>Date:</a>
+                            <div class='input-group date' id='datetimepicker1'>
+                                <input type='text' class="form-control" />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+
+                            </div>
+
+                            <a href="index.html" class="btn btn-default"><i class="glyphicon glyphicon-log-out"></i> Logout </a>
+                        </div>       
+                    </div>
+                     
+                </form>
+            </div>
+
+                
+
+        </div>
+     </header>
+
+    </div>
+</nav>
+
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="panel panel-default">
+    <div class="panel-body" style="display:block">
+
+        <center>
+
+        <h3>UserName 's Home</h3>
+
+        <div class="col-md-4">
+            <br>
+            <a href="temperature.html">
+            <img src="./images/thermometer.png" class="img-responsive img-rounded" height="250" width="50" >
+            <h2>Temperature</h2>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="about.html">
+            <img src="./images/home.png" class="img-responsive img-rounded" height="250" width="250" >
+            </a>
+            <br>
+                    <h2>Now 16.00 pm.</h2>
+        <ul style="text-align:left">
+            <li>Temperature : XX °C</li>
+            <li>Moisture XX.X % RH</li>
+        </ul>
+        </div>
+        <div class="col-md-4">
+            <br>
+            <a href="moistur.html">
+            <img src="./images/shiny.png" class="img-responsive img-rounded" height="250" width="122" >
+            <h2>Moisture</h2>
+            </a>
+        </div>
+
+
+
+
+        </center>
+    </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
